@@ -1,0 +1,159 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a2b5b3;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    background-color: #142d46;
+    color: #ecf0f1;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 15%;
+}
+
+h1 {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+section img {
+    max-width: 45%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.poke-section-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.poke-section-imgs img {
+    max-width: 15%;
+    margin: 10px;
+}
+
+.section-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-imgs img{
+    max-width: 45%;
+    margin: 20px;
+}
+
+.source-paragraph {
+    background-color: #0b58a5;
+    border-radius: 25px;
+    max-width: 30%;
+    color: #ecf0f1;
+    padding: 5px;
+    font-weight: 700;
+    margin: 2px;
+}
+
+.source-paragraph a{
+    color: #7df53d;
+    font-weight: 500;
+}
+
+.console-section {
+    background-color: #2d2d2d;
+    color: #00ff00;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+}
+
+.console-section h2 {
+    color: #ffffff;
+}
+
+.console-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.console-section li {
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: #142d46;
+    color: #ecf0f1;
+    font-weight: 900;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    max-width: 25px;
+    margin: 10px;
+}
+
+@media(max-width: 640px){
+
+    header img {
+        max-width: 50%;
+    }
+
+    .source-paragraph {
+        max-width: 100%;
+    }
+
+}
